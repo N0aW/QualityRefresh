@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "firework_rocket"
+      },
+      "title": {"translate":"advancements.javalock.vanilla.end.rocket_ship.title","fallback": "Rocket Ship"},
+      "description": {"translate":"advancements.javalock.vanilla.end.rocket_ship.description","fallback": "Get 1024m high into the sky"},
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "location": {
+        "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {"position": {"y": {"min": 1024}}}
+              }
+            }
+      }
+    },
+    "parent": "minecraft:end/elytra"
+  }

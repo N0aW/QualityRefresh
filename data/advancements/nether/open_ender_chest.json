@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_chest"
+      },
+      "title": {"translate":"advancements.qualityrefresh.story.get_anvil.title","fallback": "Dimension Box"},
+      "description": {"translate":"advancements.qualityrefresh.story.get_anvil.description","fallback": "The safest storage"},
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "ender_chest": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:ender_chest"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [["anvil", "chipped_anvil", "damaged_anvil"]],
+    "parent": "minecraft:nether/obtain_blaze_rod"
+    }

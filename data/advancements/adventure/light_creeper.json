@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:flint_and_steel"
+      },
+      "title": {"translate":"advancements.javalock.vanilla.adventure.forced_fate.title","fallback": "Forced Fate"},
+      "description": {"translate":"advancements.javalock.vanilla.adventure.forced_fate.description","fallback": "Give a creeper a helping hand"},
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "creeper": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "item": {
+              "tag": "minecraft:creeper_igniters"
+            },
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:creeper"
+                }
+              }
+            ]
+          }
+        }
+    },
+    "parent": "minecraft:adventure/root"
+  }

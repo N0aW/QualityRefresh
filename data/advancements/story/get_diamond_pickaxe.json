@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "title": {"translate":"advancements.qualityrefresh.story.get_anvil.title","fallback": "A Shiny Pickaxe"},
+      "description": {"translate":"advancements.qualityrefresh.story.get_anvil.description","fallback": "You can mine 1561 cobblestone with this... What? That's not what you're doing?"},
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "diamond_pickaxe": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:diamond_pickaxe"
+                      ]
+                    }
+                ]
+                }
+            }
+      },
+    "parent": "minecraft:story/mine_diamond"
+    }

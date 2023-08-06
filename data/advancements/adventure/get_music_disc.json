@@ -1,0 +1,200 @@
+{
+    "display": {
+      "icon": {
+        "item": "music_disc_13"
+      },
+      "title": {"translate":"advancements.javalock.vanilla.adventure.the_power_of_music.title","fallback": "The Power Of Music"},
+      "description": {"translate":"advancements.javalock.vanilla.adventure.the_power_of_music.description","fallback": "Get your hands on a music disc"},
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "13": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_13"
+                      ]
+                    }
+                ]
+                }
+            },
+        "cat": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_cat"
+                      ]
+                    }
+                ]
+                }
+            },
+        "blocks": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_blocks"
+                      ]
+                    }
+                ]
+                }
+            },
+        "chirp": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_chirp"
+                      ]
+                    }
+                ]
+                }
+            },
+        "far": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_far"
+                      ]
+                    }
+                ]
+                }
+            },
+        "mall": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_mall"
+                      ]
+                    }
+                ]
+                }
+            },
+        "mellohi": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_mellohi"
+                      ]
+                    }
+                ]
+                }
+            },
+        "stal": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_stal"
+                      ]
+                    }
+                ]
+                }
+            },
+        "strad": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_strad"
+                      ]
+                    }
+                ]
+                }
+            },
+        "ward": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_ward"
+                      ]
+                    }
+                ]
+                }
+            },
+        "11": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_11"
+                      ]
+                    }
+                ]
+                }
+            },
+        "wait": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_wait"
+                      ]
+                    }
+                ]
+                }
+            },
+        "otherside": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_otherside"
+                      ]
+                    }
+                ]
+                }
+            },
+        "5": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_5"
+                      ]
+                    }
+                ]
+                }
+            },
+        "pigstep": {
+        "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:music_disc_pigstep"
+                      ]
+                    }
+                ]
+                }
+            }
+      },
+    "requirements": [[
+        "11", "13", "5", "blocks", "cat", "chirp", "far", "mall",
+        "mellohi", "otherside", "pigstep", "stal", "strad", "wait", "ward"
+    ]],
+    "parent": "minecraft:adventure/root"
+  }
