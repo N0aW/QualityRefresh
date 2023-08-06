@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:golden_boots"
       },
-      "title": {"translate":"advancements.javalock.vanilla.adventure.exploring_time.title","fallback": "Exploring Time"},
-      "description": {"translate":"advancements.javalock.vanilla.adventure.exploring_time.description","fallback": "Find every structure and their biome variants"},
+      "title": {"translate":"advancements.qualityrefresh.adventure.exploring_time.title","fallback": "Exploring Time"},
+      "description": {"translate":"advancements.qualityrefresh.adventure.exploring_time.description","fallback": "Find every structure and their biome variants"},
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

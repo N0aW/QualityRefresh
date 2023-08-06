@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:chest"
     },
-    "title": {"translate":"advancements.javalock.vanilla.adventure.treasure_hunter.title","fallback": "Treasure Hunter"},
-    "description": {"translate":"advancements.javalock.vanilla.adventure.treasure_hunter.description","fallback": "Find a structure or treasure"},
+    "title": {"translate":"advancements.qualityrefresh.adventure.treasure_hunter.title","fallback": "Treasure Hunter"},
+    "description": {"translate":"advancements.qualityrefresh.adventure.treasure_hunter.description","fallback": "Find a structure or treasure"},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

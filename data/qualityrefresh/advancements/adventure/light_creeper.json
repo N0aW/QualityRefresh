@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:flint_and_steel"
       },
-      "title": {"translate":"advancements.javalock.vanilla.adventure.forced_fate.title","fallback": "Forced Fate"},
-      "description": {"translate":"advancements.javalock.vanilla.adventure.forced_fate.description","fallback": "Give a creeper a helping hand"},
+      "title": {"translate":"advancements.qualityrefresh.adventure.forced_fate.title","fallback": "Forced Fate"},
+      "description": {"translate":"advancements.qualityrefresh.adventure.forced_fate.description","fallback": "Give a creeper a helping hand"},
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

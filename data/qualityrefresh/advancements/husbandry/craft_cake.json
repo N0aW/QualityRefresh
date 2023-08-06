@@ -3,8 +3,8 @@
       "icon": {
         "item": "minecraft:cake"
       },
-      "title": {"translate":"advancements.javalock.vanilla.husbandry.the_lie.title","fallback": "The Lie"},
-      "description": {"translate":"advancements.javalock.vanilla.husbandry.the_lie.description","fallback": "Bake a delicious cake"},
+      "title": {"translate":"advancements.qualityrefresh.husbandry.the_lie.title","fallback": "The Lie"},
+      "description": {"translate":"advancements.qualityrefresh.husbandry.the_lie.description","fallback": "Bake a delicious cake"},
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

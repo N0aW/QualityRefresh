@@ -1,11 +1,11 @@
 {
     "display": {
       "icon": {
-        "item": "jukebox"
+        "item": "music_disc_13"
       },
-      "title": {"translate":"advancements.javalock.vanilla.adventure.full_playlist.title","fallback": "Full Playlist"},
-      "description": {"translate":"advancements.javalock.vanilla.adventure.full_playlist.description","fallback": "Collect every disc there is"},
-      "frame": "challenge",
+      "title": {"translate":"advancements.qualityrefresh.adventure.the_power_of_music.title","fallback": "The Power Of Music"},
+      "description": {"translate":"advancements.qualityrefresh.adventure.the_power_of_music.description","fallback": "Get your hands on a music disc"},
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
@@ -192,5 +192,9 @@
                 }
             }
       },
-    "parent": "qualityrefresh:adventure/get_music_disc"
+    "requirements": [[
+        "11", "13", "5", "blocks", "cat", "chirp", "far", "mall",
+        "mellohi", "otherside", "pigstep", "stal", "strad", "wait", "ward"
+    ]],
+    "parent": "minecraft:adventure/root"
   }

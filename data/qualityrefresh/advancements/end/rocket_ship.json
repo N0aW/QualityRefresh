@@ -3,8 +3,8 @@
       "icon": {
         "item": "firework_rocket"
       },
-      "title": {"translate":"advancements.javalock.vanilla.end.rocket_ship.title","fallback": "Rocket Ship"},
-      "description": {"translate":"advancements.javalock.vanilla.end.rocket_ship.description","fallback": "Get 1024m high into the sky"},
+      "title": {"translate":"advancements.qualityrefresh.end.rocket_ship.title","fallback": "Rocket Ship"},
+      "description": {"translate":"advancements.qualityrefresh.end.rocket_ship.description","fallback": "Get 1024m high into the sky"},
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
