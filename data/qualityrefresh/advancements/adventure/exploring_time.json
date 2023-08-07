@@ -300,6 +300,46 @@
                 }
               }
             }
+          },
+          "bastion_remnant": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structure": "minecraft:bastion_remnant"
+                }
+              }
+            }
+          },
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structure": "minecraft:fortress"
+                }
+              }
+            }
+          },
+        "nether_fossil": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structure": "minecraft:nether_fossil"
+                }
+              }
+            }
+          },
+        "end_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+              "player": {
+                "location": {
+                  "structure": "minecraft:end_city"
+                }
+              }
+            }
           }
     },
     "parent": "qualityrefresh:adventure/find_structure",

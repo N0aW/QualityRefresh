@@ -300,6 +300,46 @@
               }
             }
           }
+        },
+      "bastion_remnant": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "minecraft:bastion_remnant"
+              }
+            }
+          }
+        },
+      "fortress": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "minecraft:fortress"
+              }
+            }
+          }
+        },
+      "nether_fossil": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "minecraft:nether_fossil"
+              }
+            }
+          }
+        },
+      "end_city": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "minecraft:end_city"
+              }
+            }
+          }
         }
   },
   "parent": "minecraft:adventure/root",
@@ -307,5 +347,6 @@
   "jungle_pyramid", "pillager_outpost", "swamp_hut", "village_plains", "village_desert", "village_savanna",
   "village_snowy", "village_taiga", "mansion", "ruined_portal", "ocean_ruin_warm", "ocean_ruin_cold", "shipwreck",
   "shipwreck_beached", "ocean_monument", "mineshaft_mesa", "ruined_portal_desert", "ruined_portal_jungle",
-  "ruined_portal_mountain", "ruined_portal_nether", "ruined_portal_ocean", "ruined_portal_swamp"]]
+  "ruined_portal_mountain", "ruined_portal_nether", "ruined_portal_ocean", "ruined_portal_swamp", "bastion_remnant", "fortress",
+  "nether_fossil", "end_city"]]
 }
